@@ -1,0 +1,75 @@
+# Node modules
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Environment files
+.env
+.env.local
+.env.production
+.env.development
+.env.test
+
+# Build files
+build/
+dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+logs/
+*.log
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Documentation (not needed in container)
+*.md
+README.md
+QUICKSTART.md
+API_DOCUMENTATION.md
+PROJECT_SUMMARY.md
+FOLDER_STRUCTURE.md
+TROUBLESHOOTING.md
+ENVIRONMENT_GUIDE.md
+INDEX.md
+FILES.md
+
+# Docker files (not needed in container)
+docker-compose.yml
+.dockerignore
+Dockerfile
+**/Dockerfile
+**/.dockerignore
+
+# Testing
+coverage/
+.nyc_output/
+test/
+tests/
+*.test.js
+*.spec.js
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+
+# Misc
+*.bak
+*.tmp
+*.temp

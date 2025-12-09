@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment files (will be set via docker-compose)
+.env.local
+.env.development
+.env.test
+
+# Logs
+*.log
+logs/
+
+# Testing
+test/
+tests/
+*.test.js
+*.spec.js
+coverage/
+
+# Documentation
+*.md
+
+# IDE
+.vscode/
+.idea/
+
+# Git
+.git/
+.gitignore
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+*.bak
+*.tmp

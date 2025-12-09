@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Keep .env.example for reference
+!.env.example
+
+# Build output
+build/
+dist/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Docker
+*.log
+
+# Testing
+coverage/
+.nyc_output/
+
+# Documentation (optional - uncomment if you don't want to track these)
+# README.md
+# QUICKSTART.md
+# API_DOCUMENTATION.md
+# PROJECT_SUMMARY.md
+# FOLDER_STRUCTURE.md
+# TROUBLESHOOTING.md
+# ENVIRONMENT_GUIDE.md
+# INDEX.md
+# FILES.md
+# DEPLOYMENT_OPTIONS.md
+# CONTRIBUTING.md
+
+# Misc
+*.bak
+*.tmp
+*.temp

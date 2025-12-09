@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build output (will be created during Docker build)
+build/
+dist/
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+
+# Source maps
+*.map
+
+# Testing
+test/
+tests/
+src/**/*.test.js
+src/**/*.spec.js
+coverage/
+
+# Documentation
+*.md
+
+# IDE
+.vscode/
+.idea/
+
+# Git
+.git/
+.gitignore
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Misc
+*.bak
+*.tmp
