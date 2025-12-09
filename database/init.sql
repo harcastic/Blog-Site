@@ -1,6 +1,6 @@
 -- Create database
-CREATE DATABASE IF NOT EXISTS blog_platform;
-USE blog_platform;
+CREATE DATABASE IF NOT EXISTS blog_db;
+USE blog_db;
 
 -- Users table
 CREATE TABLE IF NOT EXISTS users (
