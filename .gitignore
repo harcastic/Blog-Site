@@ -37,18 +37,23 @@ desktop.ini
 coverage/
 .nyc_output/
 
-# Documentation (optional - uncomment if you don't want to track these)
-# README.md
-# QUICKSTART.md
-# API_DOCUMENTATION.md
-# PROJECT_SUMMARY.md
-# FOLDER_STRUCTURE.md
-# TROUBLESHOOTING.md
-# ENVIRONMENT_GUIDE.md
-# INDEX.md
-# FILES.md
-# DEPLOYMENT_OPTIONS.md
-# CONTRIBUTING.md
+# Documentation files
+*.md
+README.md
+QUICKSTART.md
+API_DOCUMENTATION.md
+PROJECT_SUMMARY.md
+FOLDER_STRUCTURE.md
+TROUBLESHOOTING.md
+ENVIRONMENT_GUIDE.md
+INDEX.md
+FILES.md
+DEPLOYMENT_OPTIONS.md
+CONTRIBUTING.md
+DEVELOPER_GUIDE.md
+START_HERE.md
+UPDATE_SUMMARY.md
+REPOSITORY_CHECKLIST.md
 
 # Misc
 *.bak
